@@ -1,0 +1,34 @@
+# Markdown documentation files
+PHASE_1_DATABASE_API_PROMPT.md
+PHASE_2_FRONTEND_PROMPT.md
+PLATEPAL_LOCAL_BUILD_PRD.md
+
+# Design system (will be managed separately)
+stitch_remix_of_platepal_design_system/
+
+# Node modules and dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build and dist
+dist/
+build/
+.next/
+out/
