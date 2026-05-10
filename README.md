@@ -15,47 +15,47 @@
 <table>
   <tr>
     <td align="center">
-      <img src="Screenshots/sign%20up.png" alt="Sign Up" width="100%"/>
+      <img src="screenshots/sign%20up.png" alt="Sign Up" width="100%"/>
       <br/><sub><b>Sign Up</b></sub>
     </td>
     <td align="center">
-      <img src="Screenshots/sign%20in.png" alt="Sign In" width="100%"/>
+      <img src="screenshots/sign%20in.png" alt="Sign In" width="100%"/>
       <br/><sub><b>Sign In</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="Screenshots/main-dashboard.png" alt="Home Dashboard" width="100%"/>
+      <img src="screenshots/main-dashboard.png" alt="Home Dashboard" width="100%"/>
       <br/><sub><b>Home Dashboard</b></sub>
     </td>
     <td align="center">
-      <img src="Screenshots/main-dashboard-2.png" alt="Restaurant Menu" width="100%"/>
+      <img src="screenshots/main-dashboard-2.png" alt="Restaurant Menu" width="100%"/>
       <br/><sub><b>Restaurant Menu & Reviews</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="Screenshots/filter-by-dishes.png" alt="Filter by Price" width="100%"/>
+      <img src="screenshots/filter-by-dishes.png" alt="Filter by Price" width="100%"/>
       <br/><sub><b>Filter Dishes by Price</b></sub>
     </td>
     <td align="center">
-      <img src="Screenshots/filter-by-calories.png" alt="Filter by Calories" width="100%"/>
+      <img src="screenshots/filter-by-calories.png" alt="Filter by Calories" width="100%"/>
       <br/><sub><b>Filter Dishes by Calories</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="Screenshots/favourites.png" alt="Favourites" width="100%"/>
+      <img src="screenshots/favourites.png" alt="Favourites" width="100%"/>
       <br/><sub><b>Favourite Restaurants</b></sub>
     </td>
     <td align="center">
-      <img src="Screenshots/health-log.png" alt="Health Log" width="100%"/>
+      <img src="screenshots/health-log.png" alt="Health Log" width="100%"/>
       <br/><sub><b>Health Log</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center" colspan="2">
-      <img src="Screenshots/user-profile.png" alt="User Profile" width="50%"/>
+      <img src="screenshots/user-profile.png" alt="User Profile" width="50%"/>
       <br/><sub><b>User Profile</b></sub>
     </td>
   </tr>
