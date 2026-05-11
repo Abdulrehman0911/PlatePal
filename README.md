@@ -65,7 +65,7 @@
 
 ## Overview
 
-PlatePal is a full-stack food discovery and health tracking platform built specifically for the Pakistani restaurant scene. It lets users browse 24 restaurants across major cities, explore detailed dish menus with full nutritional breakdowns, filter dishes by price range or calorie count, save favorites, write reviews, and log personal health metrics — all backed by a local SQLite database with JWT authentication.
+PlatePal is a full-stack food discovery and health tracking platform built specifically for the Pakistani restaurant scene. It lets users browse 24 restaurants across major cities, explore detailed dish menus with full nutritional breakdowns, filter dishes by price range or calorie count, save favorites, write reviews, and log personal health metrics — all backed by a MySQL database with JWT authentication.
 
 The frontend is built with React 18, Vite, and Tailwind CSS v4 with a custom Material Design 3 color system for a clean, modern look. The backend is a Node.js/Express REST API that manages authentication, restaurant data, nutritional information, reviews, favorites, and health logs — with zero external dependencies at runtime.
 
@@ -105,7 +105,7 @@ The frontend is built with React 18, Vite, and Tailwind CSS v4 with a custom Mat
 | Technology | Purpose |
 |---|---|
 | Node.js + Express | REST API server |
-| SQLite3 | Local relational database |
+| MySQL | Relational database server |
 | bcryptjs | Password hashing (salt rounds: 10) |
 | jsonwebtoken | JWT generation and verification (7-day expiry) |
 | dotenv | Environment variable management |
@@ -128,7 +128,7 @@ PlatePal/
 │   │   └── schema.js              # Table creation + full seed data
 │   │
 │   ├── utils/
-│   │   └── db.js                  # SQLite3 async wrapper with queue
+│   │   └── db.js                  # MySQL async wrapper with connection pool
 │   │
 │   ├── middleware/
 │   │   └── auth.js                # JWT verification middleware
@@ -143,7 +143,7 @@ PlatePal/
 │   │   └── health.js              # Health log CRUD (protected)
 │   │
 │   └── data/
-│       └── platepal.db            # SQLite database file (auto-created)
+│       └── platepal.sql           # MySQL database schema and seed data
 │
 ├── platepal-frontend/
 │   ├── index.html
@@ -200,7 +200,7 @@ PlatePal/
 
 ## Database Schema
 
-PlatePal uses a local SQLite database with 7 tables, automatically created and seeded on first run.
+PlatePal uses a MySQL database with 7 tables, automatically created and seeded on first run.
 
 ```
 ┌──────────────┐       ┌─────────────────┐       ┌──────────┐
